@@ -1,0 +1,26 @@
+.endbarner-sec {
+  width: 100%;
+
+  .row {
+    height: 150px;
+    .col {
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+      background-color: #ff0c00;
+      h3{
+          color: #fff;
+      }
+    }
+  }
+}
+
+@media only screen and(max-width:768px) {
+  .endbarner-sec{
+    .row{
+      .col{
+        padding-left: 40px;
+      }
+    }
+  }
+}

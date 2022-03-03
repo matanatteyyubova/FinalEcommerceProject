@@ -1,0 +1,175 @@
+footer{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/footer_bg.jpg);
+    .footer_top{
+        height: 160px;
+        border-bottom: 1px solid #2c2c30;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            color: #888;
+            margin-left: 30px;
+        }
+        form{
+            input{
+                width: 500px;
+                height: 45px;
+                border-radius: 20px;
+                border: none;
+                font-size: 20px;
+                padding: 15px;
+                position: relative;
+                font-weight: 500;
+                &:focus{
+                    outline:2px solid red;
+                }
+            }
+            button{
+                position: absolute;
+                margin-left: -50px;
+                margin-top: 12px;
+                background-color: #fff;
+                border: none;
+                i{
+                    font-size: 18px;
+                    color: red;
+                }
+            }
+        }
+    }
+    .footer_bottom{
+         padding-top: 60px;
+         .row{
+            // height: 320px;
+            .col:nth-child(2){
+                border-left: 1px solid #2c2c30;
+            }
+             .col{
+               
+               .footer_left{
+                   padding: 20px;
+                   padding-right: 100px;
+                   img{
+                       width: 200px;
+                       height: 60px;
+                       opacity: 1;
+                       filter: brightness(300%);
+                   }
+                   p{
+                       color: #888;
+                       margin: 30px 0 30px 0;
+                   }
+                   span{
+                       color: #ff0c00;;
+                       
+                   }
+                   ul{
+                       width: 500px;
+                       display: flex;
+                        justify-content: space-between;
+                        padding-left: 0;
+                       li{
+                           list-style: none;
+                           a{
+                               text-decoration: none;
+                               color: #fff;
+                               font-weight: 500;
+                               &:hover{
+                                   color: rgb(255, 2, 2);
+                               }
+                           }
+                       }
+                   }
+               }
+               .footer_right{
+                  padding: 30px;
+                  h5{
+                      color: #fff;
+                      margin-left: 30px;
+                      margin-bottom: 20px;
+                  }
+                  ul{
+                      li{
+                          list-style: none;
+                          margin-top: 10px;
+                          a{
+                              text-decoration: none;
+                              color: #fff;
+                              font-weight: 400;
+                              font-size: 15px;
+                              &:hover{
+                                color: rgb(255, 2, 2);
+                            }
+                          }
+                      }
+                  }
+               }
+             }
+         }
+     
+    }
+}
+
+button.scrollUp{
+    border-radius: 100%;
+    background: #ff0c00;
+    color: #fff;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+   
+}
+
+@media only screen and(max-width:768px) {
+    footer{
+        width: 100%;
+        height: 1100px;
+        .footer_top{
+            p{
+                color: #888;
+                margin-left: 0px;
+            }
+            form{
+                input{
+                    width: 450px;
+                    height: 45px; 
+                }
+            }
+        }
+        .footer_bottom{
+            .row{
+                .col{
+                    .footer_left{
+                        text-align: center;
+                        // padding-left: 60px;
+                         padding-right:30px;
+                         ul{
+                             margin-left: -30px;
+                             display: block;
+                             li{
+                                 font-size: 16px;
+                                 margin-top: 15px;
+                                 a{
+                                     font-size: 15px;
+                                     font-weight: 500;
+                                     letter-spacing: 1px;
+                                 }
+                             }
+                         }
+                    } 
+                    .footer_right{
+                        margin-left: -20px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    button.scrollUp{
+        position: fixed;
+        right: 20px !important;
+    }
+}

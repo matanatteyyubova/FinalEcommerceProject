@@ -1,0 +1,47 @@
+div.RegisterEnd{
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+    div.container{
+       
+        .row{
+            background: #fff;
+            // border: 1px solid #ff0c00;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            .col{
+                div.register-box{
+                    
+                   i{  
+                       display: block;
+                       margin-left: 220px;
+                       color: green;
+                       font-size: 100px;
+                   }
+                   button{
+                    font-weight: 600;
+                    width: 120px;
+                    height: 40px;
+                    background: #ff0c00;
+                    border: none;
+                    font-size: 20px;
+                    color: #fff;
+                    border-radius: 10px;
+                    margin-left: 210px;
+                    margin-top: 20px;
+                   }
+                //    h2{
+                //     background: linear-gradient(to right, #30cfd0 20%, #f31010 70%);
+                //     background-clip: text;
+                //     -webkit-text-fill-color: transparent;
+                //    }
+                }
+                div.registr-img{
+                    img{
+                        height: 300px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+ // Slick- slider*********************************************
+section.sec2{
+   
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-bottom: 100px;
+    div.slick_content{
+        width: 100%;
+        height: 85px;
+    
+      
+       div.slick1{
+         
+           width: 120px !important;
+           height: 85px;
+           background-image:url(https://esport.az/uploads/brands/jade.webp);
+           background-position: center;
+           background-size: 100%;
+       }
+       div.slick2{
+        width: 140px !important;
+        height: 80px;
+        background-image:url(https://esport.az/uploads/brands/body-sculpture.webp);
+        background-position: center;
+        background-size: 100%;
+    }  div.slick3{
+        width: 140px !important;
+        height: 80px;
+        background-image:url(https://esport.az/uploads/brands/volksgym.webp);
+        background-position: center;
+        background-size: 100%;
+    }  div.slick4{
+        width: 140px !important;
+        height: 80px;
+        background-image:url(https://esport.az/uploads/brands/speedo.webp);
+        background-position: center;
+        background-size: 100%;
+    }  div.slick5{
+        width: 140px !important;
+        height: 80px;
+        background-image:url(https://esport.az/uploads/brands/skechers.webp);
+        background-position: center;
+        background-size: 100%;
+    }  div.slick6{
+        width: 140px !important;
+        height: 80px;
+        background-image:url(https://esport.az/uploads/brands/impulse.webp);
+        background-position: center;
+        background-size: 100%;
+    }  div.slick7{
+        width: 140px !important;
+        height: 80px;
+        background-image:url(https://esport.az/uploads/brands/fashy.webp);
+        background-position: center;
+        background-size: 100%;
+    }  div.slick8{
+        width: 140px !important;
+        height: 80px;
+        background-image:url(https://esport.az/uploads/brands/meshque.webp);
+        background-position: center;
+        background-size: 100%;
+    }  div.slick8{
+        width: 140px !important;
+        height: 80px;
+        background-image:url(https://esport.az/uploads/brands/wilson.webp);
+        background-position: center;
+        background-size: 100%;
+    }  div.slick9{
+        width: 140px !important;
+        height: 80px;
+        background-image:url(https://esport.az/uploads/brands/eleiko.webp);
+        background-position: center;
+        background-size: 100%;
+    }  div.slick10{
+        width: 140px !important;
+        height: 80px;
+        background-image:url(https://esport.az/uploads/brands/mikasa.webp);
+        background-position: center;
+        background-size: 100%;
+    }  div.slick11{
+        width: 140px !important;
+        height: 80px;
+        background-image:url(https://esport.az/uploads/brands/asics.webp);
+        background-position: center;
+        background-size: 100%;
+    }  div.slick12{
+        width: 140px !important;
+        height: 80px;
+        background-image:url(https://esport.az/uploads/brands/technogym.webp);
+        background-position: center;
+        background-size: 100%;
+    }
+    }
+}
+
+@media only screen and(max-width:768px){
+    section.sec2{
+        margin-top: -160px;
+    }
+}

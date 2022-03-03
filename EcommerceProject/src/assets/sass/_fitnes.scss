@@ -1,0 +1,230 @@
+.fitnes-sec {
+  width: 97%;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 120px;
+  
+  .fitnes-text{
+      h2{
+          color: red;
+      }
+      p{ font-size: 18px; font-weight: 500;}
+  }
+  .row {
+    margin-top: 70px;
+    .fitnes-dropdown{
+        button{
+            color: #ff0c00;;
+            background-color: #fff;
+            margin-bottom: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+             width: 310px;
+             height: 60px;
+             border: 2px solid  red;
+             font-size: 18px;
+             letter-spacing: 1px;
+             font-weight: 500;
+             border-radius: 15px;
+             &:focus{
+                 outline: none !important;
+             }
+        }
+        span{
+            position: absolute;
+            margin-left: -40px;
+            margin-top: 18px;
+            i{
+              color: #ff0c00;
+            }
+        }
+    }
+    .fitnes-dropdown-content{
+      .active-dropdown-item{
+        background: #ff0c00 !important;
+        color: #fff;
+        border: 1px solid #ff0c00 !important;
+      
+      }
+        #dropdown-item{
+            font-size: 18px;
+            font-weight: 500;
+            height: 60px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            display: flex;
+            align-items: center !important;
+            border-radius: 10px;
+            padding-left: 20px;
+            padding-top: 15px;
+            background-color: #fff;
+            border: 1px solid grey;
+            margin-bottom: 10px;
+           p{
+               &:hover{
+                   color: #ff0c00;
+               }
+           }
+            
+            
+        }
+    }
+  }
+  #row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    // grid-auto-rows: 520px;
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+    grid-row-gap: 40px;
+    .card {
+      position: relative;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      border: 1px dotted red;
+      border-radius: 15px;
+      background-color: #fff;
+
+      p.card-text-price {
+        color: red;
+        font-size: 20px;
+        font-weight: 500;
+      }
+
+      img {
+        border-radius: 100%;
+      }
+      &:hover {
+        border: 3px solid #f02034;
+
+        .boxs {
+          display: flex;
+          margin-top: 0px;
+          transition: 1s;
+          opacity: 1;
+        }
+        img {
+          opacity: 0.5;
+        }
+        button {
+          background-color: #f02034;
+          color: #fff;
+          border: none;
+        }
+      }
+      button {
+        border: 1px solid #e5e5e5;
+        &:hover {
+          background-color: #ce192b;
+        }
+      }
+    }
+  }
+}
+
+.paginationBttns {
+  margin-top: 50px;
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #ff0c00;
+  color: #ff0c00;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.paginationBttns a:hover {
+  color: #fff !important;
+  background-color: #ff0c00;
+}
+
+.paginationActive a {
+  color: #fff !important;
+  background-color: #ff0c00;
+}
+.is-active{
+  background-color: red;}
+
+.paginationDisabled a {
+  color: #fff;
+  background-color: #000;
+}
+
+
+
+
+
+@media only screen and(max-width:768px) {
+  .fitnes-sec {
+    width: 90%;
+    margin-left: 0px;
+    margin-top: 100px;
+
+  
+    .fitnes-text{margin-left: 40px !important;}
+    .fitnes-dropdown{
+        margin-left: 40px;
+        transition: 1s;
+        button{
+            color: #ff0c00;;
+            background-color: rgb(224, 224, 224);
+            margin-bottom: 10px;
+             width: 400px !important;
+             height: 42px;
+             border: 1px solid grey;
+             font-size: 18px;
+             letter-spacing: 1px;
+             font-weight: 500;
+             border-radius: 15px;
+        }
+        span{
+            position: absolute;
+            margin-top: -40px;
+            margin-left: 320px !important;
+            i{
+              color: #ff0c00;
+            }
+        }
+    }
+    .fitnes-dropdown-content{
+      transition: 1s;
+        margin-left: 50px;
+        .dropdown-item{
+            font-size: 18px;
+            font-weight: 500;
+            display: flex;
+            align-items: center !important;
+            border-radius: 10px;
+            background-color: #fff;
+            border: 1px solid grey;
+            margin-bottom: 10px;
+           p{
+               &:hover{
+                   color: #ff0c00;
+               }
+           }
+            
+            
+        }
+    }
+    #row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      grid-auto-rows: 570px;
+      grid-auto-flow: dense;
+      grid-gap: 10px;
+      grid-row-gap: 40px;
+      .icons-text{
+          margin-left: 30px;
+      }
+    }
+    .paginationBttns{
+     margin-left: 50px !important;
+    }
+  }
+}

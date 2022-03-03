@@ -1,0 +1,100 @@
+div.payment-sec{
+   margin-top: 120px;
+    
+    div.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+        .card-react{
+            position: absolute;
+            top: 180px;
+            z-index: 4;
+        }
+        div.payment_form{
+            width: 500px;
+            border: 1px solid red;
+            position: relative;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 20px;
+            padding-top: 80px;
+            @media screen and (max-width: 576px) {
+                width: 100%;
+                padding: 20px;
+            }
+    
+           form{
+               margin-left: 30px;
+               @media screen and (max-width: 576px) {
+                margin-left: 0;
+            }
+                .wrapperr {
+                    label {
+                        font-size: 16px;
+                        font-weight: 600;
+                        margin-bottom: 10px;
+                        margin-left: 5px;
+            
+                    }
+                    input {
+                        width: 400px;
+                        height: 40px;
+                        border: 1px solid #E5E5E5;
+                        border-radius: 10px;
+                        margin-bottom: 20px;
+                        padding-left: 15px;
+                        @media screen and (max-width: 576px) {
+                            width: 100%;
+                        }
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                   div.payment_content{
+                       width: 400px;
+                       display: flex;
+                       justify-content: space-between;
+                       @media screen and (max-width: 576px) {
+                        width: 100%;
+                        gap: 10px;
+                    }
+                    input.cc-expiry-input{
+                        width: 180px;
+                        @media screen and (max-width: 576px) {
+                            width: 100%;
+                        }
+                    }
+                    input.cc-cvc-input{
+                        width: 180px;
+                        @media screen and (max-width: 576px) {
+                            width: 100%;
+                        }
+                    }
+                   }
+                   p.paymant_amount{
+                       color: grey;
+                   }
+                   p.price{
+                       margin-top: -15px;
+                       font-weight: 600;
+                   }
+                   button {
+                    width: 380px;
+                    height: 50px;
+                    color: #fff;
+                    background: red;
+                    border: none;
+                    border-radius: 16px;
+                    font-size: 18px;
+                    @media screen and (max-width: 576px) {
+                        width: 100%;
+                    }
+                   }
+                }
+            }
+        }
+    }
+}

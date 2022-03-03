@@ -1,0 +1,125 @@
+.card-section {
+  div.container {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    h1 {
+      text-decoration: 2px solid underline grey;
+      text-underline-offset: 4px;
+      color: red;
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-family: "Didact Gothic", sans-serif;
+    }
+    .row {
+      margin-top: 50px;
+      .col {
+        .cart-total {
+          box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+            rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+          border-radius: 10px;
+          box-sizing: border-box;
+          padding: 30px 0;
+          background-color: #fff;
+          border: 1px solid grey;
+          div.yekun {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+          }
+          h4 {
+            color: red;
+            text-align: center;
+          }
+          p.say {
+            margin-top: 40px;
+          }
+          p {
+            margin: 30px;
+            margin-left: 30px;
+            font-weight: 500;
+            font-size: 20px;
+            border-bottom: 1px solid grey;
+          }
+          button.btn1 {
+            width: 120px;
+            height: 40px;
+            background-color: #000;
+            border: none;
+            font-size: 20px;
+            border-radius: 10px;
+            color: #fff;
+          }
+          button.btn2 {
+            width: 120px;
+            height: 40px;
+            background-color: red;
+            border: none;
+            font-size: 20px;
+            border-radius: 10px;
+            color: #fff;
+          }
+        }
+        .cart-item {
+          box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+            rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+          width: 100%;
+          border: 2px solid red;
+          border-radius: 10px;
+          position: relative;
+          display: flex;
+          background-color: #fff;
+          padding: 20px 30px;
+          margin-bottom: 20px;
+          div.cart-img {
+            margin-right: 30px;
+            img {
+              border-radius: 20px;
+              width: 200px;
+              height: 200px;
+            }
+          }
+          div.cart-text {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h2.price {
+              color: red;
+              border-bottom: 1px solid grey;
+            }
+            .cart-number {
+              width: 180px;
+              height: 40px;
+              background-color: red;
+              border-radius: 30px;
+              color: #fff;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-top: 30px;
+              button {
+                color: #fff;
+                border: none;
+
+                &:focus {
+                  outline: none !important;
+                }
+              }
+            }
+            .cart-btn {
+              position: absolute;
+              right: 30px;
+              button {
+                border: none;
+                color: grey;
+                &:hover {
+                  color: red;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

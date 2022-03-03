@@ -1,0 +1,99 @@
+section.sec_end{
+    margin-bottom: 60px;
+    text-align: center;
+    h3{
+    color: #FF0000;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 600;
+    }
+  .line{
+      width: 50px;
+      height: 4px;
+      background-color: black;
+      margin-left: 640px;
+      border-radius: 2px;
+  }
+    
+    div.container_end{
+        width: 100%;
+        height: 240px;
+        margin-top: 20px;
+        
+        .row{
+            height: 230px;
+            .col{
+                animation: mymove 3s infinite;
+                position: relative;
+               transition: 1s;
+              img{
+                width:220px;
+                height: 220px;
+                filter: brightness(30%);
+                border-radius: 100%;
+                &:hover{
+                    filter: brightness(100%);
+                    border: 2px solid #f02034;
+                }
+              }
+              i{
+                  position: absolute;
+                  top: 90px;
+                  font-size: 60px;
+                  left: 100px;
+                  color: red;
+                  display: none;
+                
+              }
+            }
+          
+        }
+    }
+}
+
+@keyframes mymove {
+    0%   {top: 0px;}
+    50%  {top: 20px;}
+    100%  {top: 0px}
+  
+  }
+.col:hover{
+    i{
+        display: block !important;
+       
+    }
+}
+
+@media only screen and(max-width:768px){
+    div.container_end{
+        width: 100%;
+        height: 240px;
+        margin-top: 20px;
+        
+        .row{
+            height: 230px;
+            .col{
+                position: relative;
+               transition: 1s;
+              img{
+                width:400px !important;
+                height: 300px !important;
+                border-radius: 10px;
+                &:hover{
+                    filter: brightness(30%);
+            
+                   
+                }
+              }
+              i{
+                  position: absolute;
+                  top: 120px !important;
+                  font-size: 60px;
+                  left: 200px !important;
+                  color: red;
+                  display: none;
+              }
+            }
+          
+        }
+    }
+}

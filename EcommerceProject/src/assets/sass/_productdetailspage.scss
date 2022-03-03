@@ -1,0 +1,199 @@
+div.pdetails {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  .row {
+    background-color: #fff;
+    .col {
+      padding: 20px;
+      button {
+        &:focus {
+          outline: none !important;
+        }
+      }
+      .item-info-box1 {
+        padding: 10px;
+        padding-top: 0;
+        border-bottom: 1px solid grey;
+        h1 {
+          font-family: "Gotham", sans-serif;
+          font-weight: bold;
+          font-size: 1.5em;
+        }
+        p {
+          margin-top: 25px;
+          font-weight: 500;
+          span {
+            font-weight: bold;
+          }
+        }
+      }
+      .item-info-box2 {
+        border-bottom: 1px solid grey;
+        padding: 10px;
+        h1 {
+          color: red;
+        }
+        .size-buttons {
+          width: 220px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          display: flex;
+          height: 50px;
+          justify-content: space-between;
+          .active {
+            background-color: red;
+            color: #fff;
+            border: 2px solid red;
+          }
+          button {
+            width: 40px;
+            height: 40px;
+            border: none;
+            border: 2px solid grey;
+            border-radius: 10px;
+            background: #fff;
+            padding: 5px;
+          }
+        }
+        .item-counts {
+          width: 350px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          input {
+            height: 35px;
+            width: 80px;
+          }
+          button#sebet {
+            width: 120px;
+            height: 40px;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 5px;
+            color: #fff;
+            background: red;
+            border: none;
+            border-radius: 30px;
+          }
+          button#sifaris {
+            width: 120px;
+            height: 40px;
+            font-size: 16px;
+            padding: 5px;
+            font-weight: 500;
+            color: #000;
+            background: #fff;
+            border: 2px solid #000;
+            border-radius: 30px;
+          }
+        }
+        p {
+          margin-top: 25px;
+          font-weight: 500;
+          span {
+            font-weight: bold;
+          }
+        }
+      }
+      .item-info-box3 {
+        padding: 20px;
+        padding-left: 10px;
+        border-bottom: 1px solid grey;
+        p {
+          font-weight: 500;
+          span {
+            font-weight: bold;
+            color: #2ecc71;
+          }
+        }
+        .likes {
+          display: flex;
+          width: 90px;
+          justify-content: space-between;
+          .onediv {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: #d4d2d2;
+            border-radius: 100%;
+            i {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+      .item-info-box4 {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid grey;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        padding-left: 10px;
+        p {
+          margin-top: 20px;
+          font-weight: 500;
+          span {
+            font-weight: bold;
+          }
+        }
+        div.social-web {
+          width: 90px;
+          display: flex;
+          justify-content: space-between;
+          div.whatsapp {
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            background-color: #2ecc71;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i {
+              color: #fff;
+              font-size: 22px;
+            }
+          }
+          div.facebook {
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            background-color: #4267b2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i {
+              color: #fff;
+              font-size: 22px;
+            }
+          }
+        }
+      }
+      .slide {
+        background-color: red;
+      }
+
+      ul.control-dots {
+        display: none !important;
+      }
+
+      button.control-arrow {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: red;
+        margin-top: 250px;
+      }
+    }
+  }
+}

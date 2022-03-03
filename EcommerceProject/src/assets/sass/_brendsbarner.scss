@@ -1,0 +1,107 @@
+
+.brends_barners{
+    width: 97%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    grid-auto-rows: 320px;
+    grid-auto-flow: dense;
+    grid-gap:20px;
+
+    .brend-box{
+        position: relative;
+        overflow: hidden;
+      
+    }
+    .brend-box:nth-child(1){
+        grid-column: span 2;
+    }
+    .brend-box:nth-child(4){
+        grid-column: span 2;
+    }
+    .brend-box{
+        .brend-name-text{
+            position: absolute;
+            top:40px;
+            left: 30px;
+            z-index: 2;
+            color:#000 ;
+            h3{
+                span{
+                    color: #000;
+                }
+            }
+        }
+        .brend-text{
+            opacity: 0;
+            border-radius: 20px;
+            padding: 25px;
+            background-color: rgba(0,0,0,0.7);
+            position: absolute;
+            margin-top: 20px;
+            margin-left: 300px;
+            top: 0;
+            z-index: 2;
+            h5{
+                color: #f02034;
+                font-size: 24px;
+            }
+            ul{
+                padding: 0;
+                li{
+                    list-style: none;
+                    color: #000000;
+                    font-size: 20px;
+                    a{
+                        text-decoration: none;
+                        color: #FFF;
+                        &:hover{
+                            color: #f02034;
+                            margin-left: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        img{
+            position: relative;
+            filter: brightness(90%);
+            width: 100%;
+            height: 100%;
+             object-fit: fill;
+             border: 2px solid #e5e5e5;
+            border-radius: 15px;
+            
+        }
+        &:hover{
+            // filter: brightness(90%);
+            border: 2px solid #f02034;
+            border-radius: 15px;
+            .brend-name-text{
+                opacity: 0;
+            }
+            .brend-text{
+                margin-left: 20px;
+                transition: 1s;
+                opacity: 1;
+            }
+       }
+    }
+}
+
+
+
+
+@media only screen and(max-width:768px) {
+    .brends-barners{
+     
+        grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+        grid-auto-rows: 300px;
+    }
+    .brend-box:nth-child(1){
+        grid-column:unset !important;
+    }
+    .brend-box:nth-child(4){
+        grid-column:unset !important;
+    }
+}

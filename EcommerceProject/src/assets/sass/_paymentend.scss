@@ -1,0 +1,90 @@
+.paymentend-sec{
+    div.container{
+        margin-bottom: 100px;
+        margin-top: 50px;
+        // h2{
+        //     color:red;
+        //     margin-bottom: 50px;
+        // }
+        .paymentend-form{
+            background: #fff;
+            border: 2px solid #ff0030;
+            border-radius: 15px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            div.levels{
+                padding: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                div.left{
+                    div.box{
+                        width: 25px;
+                        height: 25px;
+                        background: #ff0030;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 100%;
+                        color: #fff;
+                        font-size: 18px;
+                    }
+                    width: 220px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    h4{
+                        margin-top: 6px;
+                    }
+                }
+                div.right{
+                  div.box{
+                      width: 25px;
+                      height: 25px;
+                      background: #ff0030;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      border-radius: 100%;
+                      color: #fff;
+                      font-size: 18px;
+                  }
+                  width: 205px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  h4{
+                      margin-top: 6px;
+                  }
+              }
+              div.line{
+                  width: 620px;
+                  height: 2px;
+                  background: grey;
+              }
+            }
+            .row{
+                .col{
+                    div.payend{
+                        h3{
+                            span{
+                                color: red;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                    button.end{
+                        margin-top: 30px;
+                        width: 160px;
+                        height: 40px;
+                        background: #000;
+                        color: #ffffff;
+                        font-size: 18px;
+                        border: none;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

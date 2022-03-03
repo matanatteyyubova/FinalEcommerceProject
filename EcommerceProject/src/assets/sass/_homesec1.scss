@@ -1,0 +1,111 @@
+section.sec1{
+    margin-top: 30px;
+    margin-bottom: 160px;
+    padding: 0 20px 0 20px;
+    div.content{
+        height: 600px;
+        width: 100%;
+        img.mainSlider{
+            border-radius: 30px;
+            height: 650px;
+            position:relative;
+            filter: brightness(60%);
+          
+        }
+        .slider-text{
+            position:absolute;
+            top: 250px;
+            z-index: 2;
+            left: 100px;
+            h1{
+                color: #fff;
+                filter: brightness(200);
+                letter-spacing: 1px;
+                font-size: 54px;
+                letter-spacing: 3px;
+                font-weight: 600;
+                margin-bottom: 20px;
+                font-family: 'Didact Gothic', sans-serif;
+            }
+            p{
+                font-size: 22px;
+                font-weight: 400;
+                color: #fff;
+            }
+            button.slider-button{
+                width: 150px;
+                height: 50px;
+                background: #ff0c00;
+                font-weight: 600;
+                font-size: 14px;
+                color: #fff;
+                padding: 10px 22px;
+                border: none;
+                border-radius: 30px;
+                font-size: 18px;
+                letter-spacing: 1PX;
+                border: 2px solid #ff0c00;
+                transition: 0.5s;
+                &:hover{
+                    background-color: #000;
+                    border: 2px solid #000;
+                }
+            }
+        }
+
+
+    }
+        
+}
+
+.carousel-indicators{
+   button{
+       background-color: red !important;
+       width: 15px !important;
+       height: 15px !important;
+       border-radius: 100% !important;
+       z-index: 2 !important;
+      
+
+   }
+}
+
+.carousel-control-next-icon{
+ margin-right: -120px !important;
+ background-image: url(https://esport.az/static/front/images/icons/next.svg) !important;
+
+}
+
+.carousel-control-prev-icon{
+     margin-left: -120px !important;
+     background-image: url(https://esport.az/static/front/images/icons/prev.svg) !important;
+    
+    }
+
+
+    @media only screen and(max-width:768px){
+        section.sec1{
+            padding: 0 10px 0 10px;
+            margin-bottom: 0px !important;
+            div.content{
+                .slider-text{
+            text-align: center;
+            position:absolute;
+            top: 50px;
+            z-index: 2;
+            left: 80px;
+                }
+                img.mainSlider{
+                    height: 320px !important;
+                }
+            }
+            .carousel-control-next-icon{
+                margin-right: 0px !important;
+            }
+            .carousel-control-prev-icon{
+                margin-left: 0px !important;
+            }
+        }
+       
+        
+    }

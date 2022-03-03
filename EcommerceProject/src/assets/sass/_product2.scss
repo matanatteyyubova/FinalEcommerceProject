@@ -1,0 +1,195 @@
+div.product2{
+    
+    width: 97%;
+    padding-left: 10px;
+    height: 700px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+
+    
+.slick-next{
+    background-color: #ff0c00 !important;
+    margin-top: -335px;
+    border-radius: 100%;
+    margin-right: 50px;
+    width: 40px !important;
+    height: 40px !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.slick-prev{
+    background-color: #ff0c00 !important;
+    margin-top: -335px;
+    margin-left: 1210px;
+    border-radius: 100%;
+    width: 40px !important;
+    height: 40px !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+  
+    .slick-slide {
+        margin: 0px;
+      }
+      .slick-list {
+        margin: 0 -10px;
+      }
+    
+      div.product2-text{
+          margin-bottom: 60px;
+          display: flex;
+          align-items: center;
+          
+          div.line{
+              width: 900px;
+              margin-left: 10px;
+              margin-top: 5px;
+              height: 3px;
+              border-radius: 2px;
+              background-color: #e7e3e3;
+          }
+         div.title-box{
+            width: 260px;
+            height: 50px;
+            border-radius: 10px;
+            border: 1px solid #ff0c00;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            h2.product2-title{
+                margin-top: 5px;
+                margin-left: 10px;
+                font-family: 'Didact Gothic', sans-serif;
+                font-weight: 600;
+                letter-spacing: 1px;
+                      color: #ff0c00;
+                      span{
+                          color: #000;
+                      }
+                  
+              }
+         }
+      }
+    .card{
+        width: 310px;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        border:1px solid #e5e5e5;
+        border-radius: 15px;
+        background-color: #fff !important;
+        
+      
+       p.card-text-price{
+           color: red;
+           font-size: 20px;
+           font-weight: 500;
+       }
+       
+      img{
+          border-radius: 100%;
+      }
+      &:hover{
+          border: 3px solid #f02034;
+          
+          .boxs{
+              display: flex;
+              margin-top: 0px;
+              transition: 1s;
+              opacity: 1;
+          }
+          img{
+            opacity: 0.5;
+          }
+          button{
+              background-color: #f02034;
+              color: #fff;
+              border: none;
+          }
+      }
+      button{
+          border: 1px solid #e5e5e5;
+          &:hover{
+              background-color: #ce192b;
+          }
+          
+      }
+    }
+}
+// **********************************************
+div .icons-text{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    .boxs{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid red;
+        border-radius: 5px;
+        background-color: #fff;
+        margin-top: 150px;
+        transition: 1s;
+        opacity: 0;
+        i{
+            color: #f02034;
+        }
+        &:hover{
+            background-color: #f02034;
+            i{
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+// ****************************************************
+@media only screen and(max-width:768px){
+    div.product2{
+        padding: 0px;
+        .slick-next{
+            background-color: #ff0c00 !important;
+            margin-top: -390px;
+            border-radius: 100%;
+            margin-right: 60px;
+            width: 40px !important;
+            height: 40px !important;
+            
+        }
+        .slick-prev{
+            background-color: #ff0c00 !important;
+            margin-top: -390px;
+            margin-left: 370px;
+            border-radius: 100%;
+            width: 40px !important;
+            height: 40px !important;
+          
+        }
+        div.product2-text{
+            div.line{
+                width: 100px;
+            }
+            div.title-box{
+                margin-left: 20px;
+                width: 200px;
+                h2{
+                    margin-top: 10px !important;
+                    font-size: 24px !important;
+                }
+            }
+        }
+        .card{
+            width: 420px;
+            margin-left: 30px;
+        }
+        .icons-text{
+            left:120px;
+            top:200px;
+        }
+    }
+}

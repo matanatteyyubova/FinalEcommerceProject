@@ -1,0 +1,78 @@
+.idmanType-sec{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 97%;
+    margin-left: 20px;
+    h2{color: red; text-decoration: 2px solid underline grey; text-underline-offset: 7px;}
+    p{
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .row{
+        margin-top: 50px;
+        .col{
+            .card{
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                padding: 10px;
+                box-sizing: border-box;
+                height: 300px;
+                border: 1px dotted red;
+                border-radius: 10px;
+                position: relative;
+                z-index: 1;
+                &:hover{
+                    // filter: brightness(80%);
+                    border: 1px solid red;
+                    i{visibility: visible; transition-delay: 0.5s; ;}
+                }
+                i{
+                    position: absolute;
+                    top: 90px;
+                    left: 90px;
+                    color: #fff;
+                    font-size: 30px;
+                    z-index: 9999;
+                    visibility: hidden;
+                   
+                }
+        
+              .card-body{ 
+                  h5{margin-top: 20px;} 
+                  &:hover{
+                      color: red;
+                  }
+              }
+              
+            }
+            
+.card::after{
+    content: " ";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    background-color: red;
+    top: 0px;
+    left: 0px;
+    transition: 0.5s;
+    border-radius: 10px;
+    opacity: 0.6;
+    visibility: hidden;
+    
+}
+.card:hover::after{
+    h5{color: #fff;}
+    width: 100%;
+    height: 63%;
+    visibility: visible;
+}
+        }
+    }
+}
+
+
+@media only screen and(max-width:768px){
+    .idmanType-sec{
+        margin-left: -20px !important;
+    }
+}
