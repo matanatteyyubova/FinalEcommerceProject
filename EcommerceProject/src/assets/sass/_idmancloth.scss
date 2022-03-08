@@ -9,7 +9,7 @@
         h2{
             color: red;
         }
-        p{ font-size: 18px; font-weight: 500;}
+        p{ font-size: 18px; font-weight: 500; i{font-size: 14px;}}
     }
     .row {
       margin-top: 70px;
@@ -20,12 +20,12 @@
               box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
               margin-bottom: 10px;
                width: 310px;
-               height: 50px;
+               height: 55px;
                border: 2px solid  red;
                font-size: 18px;
                letter-spacing: 1px;
                font-weight: 500;
-               border-radius: 15px;
+               border-radius: 10px;
                &:focus{
                    outline: none !important;
                }
@@ -40,22 +40,25 @@
           }
       }
       .fitnes-dropdown-content{
-          .dropdown-item{
-              font-size: 18px;
-              font-weight: 500;
-              display: flex;
-              align-items: center !important;
-              box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-              border-radius: 10px;
-              background-color: #fff;
-              border: 1px solid grey;
-              margin-bottom: 10px;
-             p{
-                 &:hover{
-                     color: #ff0c00;
-                 }
-             }
-              
+        .active-dropdown-item{
+          background: #ff0c00 !important;
+          color: #fff;
+          border: 1px solid #ff0c00 !important;
+        
+        }
+          #dropdown-item{
+            font-size: 18px;
+            font-weight: 500;
+            height: 60px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            display: flex;
+            align-items: center !important;
+            border-radius: 10px;
+            padding-left: 20px;
+            padding-top: 15px;
+            background-color: #fff;
+            border: 1px solid grey;
+            margin-bottom: 10px;
               
           }
       }

@@ -115,10 +115,12 @@ body::-webkit-scrollbar-thumb{
       &:hover {
         div.user-enter {
           opacity: 1;
+          visibility: visible;
         }
       }
       div.user-enter {
         opacity: 0;
+        visibility:hidden ;
         position: absolute;
         padding-top: 10px;
         top: 30px;
@@ -245,6 +247,29 @@ div.container-fluid {
     background-color: red;
     margin-right: 15px;
   }
+  #search-area{
+    position: absolute;
+    top: 65px;
+    left: 280px;
+    input{
+    width:950px;
+    height: 70px;
+    font-size: 24px;
+    padding-left: 20px;
+    border: none;
+    border-bottom: 2px solid #ff0c00;
+    &:focus{
+      outline: none;
+    }
+    &:placeholder-shown{
+      color: red;
+   
+    }
+    &::placeholder{
+      color: #000;
+    }
+    }
+  }
 }
 
 .bag {
@@ -269,6 +294,10 @@ div.container-fluid {
   justify-content: center;
   align-items: center;
 }
+
+
+
+
 
 @media only screen and(max-width:768px) {
   .nav-links {

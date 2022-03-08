@@ -8,7 +8,7 @@
       h2{
           color: red;
       }
-      p{ font-size: 18px; font-weight: 500;}
+      p{ font-size: 18px; font-weight: 500; i{font-size: 14px;}}
   }
   .row {
     margin-top: 70px;
@@ -24,7 +24,7 @@
              font-size: 18px;
              letter-spacing: 1px;
              font-weight: 500;
-             border-radius: 15px;
+             border-radius: 10px;
              &:focus{
                  outline: none !important;
              }

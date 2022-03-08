@@ -25,7 +25,11 @@ const languages = [
 
 const Header = () => {
   const [theme, setTheme] = useState(() => localStorage.getItem("theme"));
+  const [show ,setIsShow] =useState(false)
 
+   const ShowToggle =()=>{
+     setIsShow(!show);
+   }
   const ThemeToggler = () => {
     theme === "light" ? setTheme("dark") : setTheme("light");
 
@@ -90,7 +94,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div className="icons"  className={isMobile ? "mobile-icons " : "icons"} >
+            <div   className={isMobile ? "mobile-icons " : "icons"} >
               <p id="partnyor">{t("text1")}</p>
               <div className="user">
                 <i id="hesab" className="far fa-user"></i>{" "}
@@ -171,10 +175,17 @@ const Header = () => {
               )}
             </button>
           </nav>
+            { show && (
+                       <form id="search-area" >
+                       <input type="search" placeholder="Search" />
+                     </form>
+            )
 
-          <div className="search" className={isMobile ? "mobile-search " : "search"} >
+            }
+          <div className={isMobile ? "mobile-search " : "search"}  onClick={ShowToggle}>
             <i class="fas fa-search" id="search"></i>
           </div>
+         
         </div>
       </div>
     </ThemeProvider>

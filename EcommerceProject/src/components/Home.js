@@ -16,7 +16,8 @@ import HotCatagories from './HomeComponent/HotCatagories'
 class Home extends Component {
     render() {
         return (
-            <div>
+            <div className='home'>
+        
                <section className='sec1'>
                   <div className="content">
                       <SliderMain />

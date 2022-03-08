@@ -10,7 +10,7 @@ const BrendsBarner=()=> {
         return (
             <div>
                  <section className='brends_barners' >
-                   <div className="brend-box" data-aos="fade-right"  data-aos-duration="500" data-aos-delay="300">
+                   <div className="brend-box" data-aos="fade-right"  data-aos-duration="3000" data-aos-delay="300">
                        <img src={img1} alt="" />
                        <div className="brend-name-text">
                             <h3>{t('text16')}</h3>
@@ -28,7 +28,7 @@ const BrendsBarner=()=> {
                        </div>
                   </div> 
 
-                  <div className="brend-box" data-aos="fade-left"  data-aos-duration="500" data-aos-delay="300">
+                  <div className="brend-box" data-aos="fade-left"  data-aos-duration="3000" data-aos-delay="300">
                   <div className="brend-name-text">
                             <h3>{t('text23')}</h3>
                        </div>
@@ -43,7 +43,7 @@ const BrendsBarner=()=> {
                        <img src={img2} alt="" />
                   </div>
 
-                  <div className="brend-box" data-aos="fade-right"  data-aos-duration="500"  data-aos-delay="300">
+                  <div className="brend-box" data-aos="fade-right"  data-aos-duration="3000"  data-aos-delay="300">
                   <div className="brend-name-text">
                             <h3>{t('text26')}</h3>
                        </div>
@@ -58,7 +58,7 @@ const BrendsBarner=()=> {
                        <img src={img3} alt="" />
                   </div>
 
-                  <div className="brend-box" data-aos="fade-left"  data-aos-duration="500" data-aos-delay="300">
+                  <div className="brend-box" data-aos="fade-left"  data-aos-duration="3000" data-aos-delay="300">
                   <div className="brend-name-text">
                             <h3> {t('text29')}</h3>
                        </div>

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Qeydiyyat = () => {
     return (
         <div className='qeydiyyat-sec'>
-          <section class="wrapper">
+        <section class="wrapper">
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
