@@ -18,7 +18,7 @@ import CheckoutDetails from "../components/CheckoutDetails";
 import PaymentEnd from "../components/PaymentEnd";
 import RegisterEnd from "../components/RegisterEnd";
 import ScrollToTop from "../components/ScrollTop";
-import CreditCard from "../components/CreditCard"
+import CreditCard from "../components/CreditCard";
 import NotFoundPage from "../components/NotFoundPage";
 // import App1 from '../components/App1';
 
@@ -27,12 +27,10 @@ const AppRouter = () => {
     <div className="app-router">
       <BrowserRouter>
         <ScrollToTop />
-
-       
-          <CartProvider>
-            <Header />
-            <Switch>
-            <Route exact path="/" component={Home} ></Route>
+        <CartProvider>
+          <Header />
+          <Switch>
+            <Route exact path="/" component={Home}></Route>
             <Route path="/fitnes" component={Fitnes}></Route>
             <Route path="/idmancloth" component={IdmanCloth}></Route>
             <Route path="/idmantype" component={IdmanType}></Route>
@@ -47,11 +45,10 @@ const AppRouter = () => {
             <Route path="/pdetails" component={ProductDetails}></Route>
             <Route path="/payment" component={CreditCard}></Route>
             <Route path="/paymentend" component={PaymentEnd}></Route>
-            <Route  component={NotFoundPage}></Route>
-            </Switch>
-          </CartProvider>
-         
-       
+            <Route component={NotFoundPage}></Route>
+          </Switch>
+        </CartProvider>
+
         <Footer />
         {/* <App1 /> */}
       </BrowserRouter>

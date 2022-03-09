@@ -154,6 +154,53 @@ div .icons-text{
         padding: 0px;
         .slick-next{
             background-color: #ff0c00 !important;
+            margin-top: -340px;
+            border-radius: 100%;
+            margin-right: 60px;
+            width: 40px !important;
+            height: 40px !important;
+            
+        }
+        .slick-prev{
+            background-color: #ff0c00 !important;
+            margin-top: -340px;
+            margin-left: 630px;
+            border-radius: 100%;
+            width: 40px !important;
+            height: 40px !important;
+          
+        }
+        div.product2-text{
+            div.line{
+                width: 360px;
+            }
+            div.title-box{
+                margin-left: 20px;
+                width: 200px;
+                h2{
+                    margin-top: 10px !important;
+                    font-size: 24px !important;
+                }
+            }
+        }
+        .card{
+            width: 320px;
+            margin-left: 30px;
+        }
+        .icons-text{
+            left:120px;
+            top:200px;
+        }
+    }
+}
+
+
+// *****************************************************
+@media only screen and(max-width:500px){
+    div.product2{
+        padding: 0px;
+        .slick-next{
+            background-color: #ff0c00 !important;
             margin-top: -390px;
             border-radius: 100%;
             margin-right: 60px;

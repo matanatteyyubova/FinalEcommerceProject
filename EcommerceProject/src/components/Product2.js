@@ -19,18 +19,19 @@ const Responsive = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 2,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToScroll: 2,
           initialSlide: 2,
+          dots: false,
         },
       },
       {

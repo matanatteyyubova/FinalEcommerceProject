@@ -148,6 +148,50 @@ div .icons-text{
 @media only screen and(max-width:768px) {
     section.product{
         width: 90%;
+        margin-top: 100px;
+        .product1-text{
+            div.title-box{
+                width: 190px;
+                h2{
+                    margin-top: 10px !important;
+                    font-size: 24px !important;
+                }
+            }
+            div.line{
+                width: 70px;
+                height: 3px;
+                background-color: #e7e3e3;
+            }
+           
+        }
+        .row{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+        grid-auto-rows: 700px;
+        grid-auto-flow: dense;
+        grid-gap:10px;
+        grid-row-gap:40px;
+        .card{
+            margin-left: 5px;
+        }
+        div .icons-text{
+            width: 170px;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top: 150px;
+            left: 140px;
+        }
+        }}
+   
+}
+
+
+// ****************************************************
+@media only screen and(max-width:500px) {
+    section.product{
+        width: 90%;
         margin-left: 20px;
         margin-top: 100px;
         .product1-text{

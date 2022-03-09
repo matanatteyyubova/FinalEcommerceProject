@@ -42,7 +42,7 @@
 
 @media only screen and(max-width:768px) {
     .brends-catagory{
-     
+        margin-left: 20px;
         grid-template-columns: repeat(auto-fit, minmax(400px,1fr)) !important;
         grid-auto-rows: 300px;
     }

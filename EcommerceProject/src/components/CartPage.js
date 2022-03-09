@@ -39,6 +39,7 @@ const CartPage = () => {
                       <div className="cart-number cart-number-danger">
                         <button
                           className="btn ms-2"
+                          id="count-btn1"
                           onClick={() =>
                             updateItemQuantity(item.id, item.quantity - 1)
                           }

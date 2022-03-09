@@ -106,6 +106,40 @@ div.hot-catagories{
                
             }
             div.line{
+                width: 380px !important; 
+            } 
+        }
+        .slick-next{
+            background-color: #ff0c00 !important;
+            margin-top: -205px !important;
+            border-radius: 100%;
+            margin-right: 60px !important;
+            width: 40px !important;
+            height: 40px !important;
+            
+        }
+        .slick-prev{
+            background-color: #ff0c00 !important;
+            margin-top: -205px !important;
+            margin-left: 630px !important;
+            border-radius: 100%;
+            width: 40px !important;
+            height: 40px !important;
+          
+        }
+    }
+    
+      
+}
+
+@media only screen and(max-width:500px){
+    .hot-catagories{
+        .hot-text{
+            div.title-box{
+                width: 180px !important;
+               
+            }
+            div.line{
                 width: 140px !important; 
             } 
         }
